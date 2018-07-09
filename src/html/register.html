@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>免费注册，独享淘宝天猫1折商品 - 卷皮网</title>
+</head>h
+<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.3.7/dist/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/regiter.css" />
+<script src="../js/common.js"></script>
+<script src="../lib/require.js" data-main="../js/register.js"></script>
+<body>
+    <header id="r_top" >
+        <div class="container clearfix">
+            <h1 class="fl"><a href="#" title="卷皮首页"></a></h1>
+            <div class="fr">
+                <a href=""><i class=""></i>10:00开抢</a>
+                <a href=""><i class=""></i>买手砍价</a>
+                <a href=""><i class=""></i>验货质检</a>
+            </div>
+        </div>
+    </header>
+    <main id="r_main">
+        <div class="container">
+            <div class="main_t clearfix">
+                <p class="fl"><span>新用户注册</span><i></i><span>注册卷皮网，赢积分换好礼</span></p>
+                <p class="fr">已有帐号，<a href="login.html">立即登录</a></p>
+            </div>
+            <div class="main_b clearfix">
+                <form class="form-horizontal main_b_l fl">
+                  <div class="form-group">
+                    <label for="phonenum" class="col-sm-4 control-label">手机号码：</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="phonenum" name="phonenum">
+                      <span >输入11位手机号码</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="createpwd" class="col-sm-4 control-label">创建密码：</label>
+                    <div class="col-sm-8">
+                      <input type="password" class="form-control" id="createpwd" nam="createpwd">
+                      <span >密码格式：6-20非空格字符组合</span>
+                    </div>
+                  </div>
+                  <div class="strength">
+                      <span>密码强度：</span><div class="ibox"><i></i>
+                      <i></i>
+                      <i></i><span></span></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="confirmpwd" class="col-sm-4 control-label">确认密码：</label>
+                    <div class="col-sm-8">
+                      <input type="password" class="form-control" id="confirmpwd" name="confirmpwd">
+                      <span >与上述密码一致</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="verification" class="col-sm-4 control-label">验证码：</label>
+                    <div class="col-sm-5">
+                      <input type="text" class="form-control" id="verification" name="verification" placeholder="验证码">
+                    </div><span class="code"></span><span>点击更新</span>
+                    <span class="col-sm-offset-4 col-sm-8"></span>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-8">
+                      <button type="button" class="btn btn-default col-sm-12">立即注册</button>
+                      <span ></span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" class="rules"> 我已阅读并接受《卷皮用户协议》
+                        </label>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </form>
+                <div class="main_b_r fr">
+                    <img src="../img/registor_br.png" />
+                    <div></div>
+                    <p>无需注册，快速登录</p>
+                    <div>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </main>
+    <footer id="r_bottom">
+        <div class="container">
+            <p>武汉奇米网络科技有限公司 鄂ICP备10209250号 | ICP许可证号：鄂B2-20150109 | <a href="">鄂公网安备42018502000390号</a> | 食品流通许可证 SP4201991510041888</p>
+            <p>Copyright © 2010 - 2018 JuanPi.com All Rights Reserved</p>
+        </div>   
+    </footer>
+    <!-- <script >
+        document.querySelector('.btn').onclick = function(){
+            var params = {
+                phonenum: document.getElementById('phonenum').value,
+                pwq: document.getElementById('createpwd').value
+            }
+            $.ajax({
+                api: '../api/registor.php',
+                method: 'post',
+                params,
+                success: function(res){
+                    console.log(res);
+                }
+            })
+        }
+    </script> -->
+</body>
+</html>

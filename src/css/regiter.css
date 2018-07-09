@@ -1,0 +1,36 @@
+.container{width:978px;margin:0 auto;padding:0;}
+/*---------------top------------*/
+
+/*--------------------main------------*/
+#r_main{width:100%;background-color: #F6F6F6;overflow:hidden;padding-top: 26px;}
+#r_main .container{height: 600px;background-color: #fff;}
+#r_main .main_t {height: 64px;border-bottom: 1px solid #bbb;padding:0 55px 0 50px;}
+#r_main .main_t p{line-height: 20px;margin-top: 20px;}
+#r_main .main_t p span{display:inline-block;}
+#r_main .main_t p.fl span:nth-child(1){color:#FF464E;font-size: 20px;}
+#r_main .main_t p.fl i{display:inline-block;width: 1px;height: 26px;background-color: #bbb;margin:0 10px;transform:rotate(20deg);}
+#r_main .main_t p.fr{color:#ccc;}
+#r_main .main_t p.fr a{font-size: 20px;}
+#r_main .main_b_l{width: 440px;}
+#r_main .main_b_l .form-group{margin-top: 30px;}
+#r_main .main_b_l span.code{display:inline-block;background-color: #bbb;height: 34px;text-align: center;line-height: 34px;font-size: 12px;padding:0 10px;}
+#r_main .main_b_l .strength{width: 200px;margin-left: 157px;}
+#r_main .main_b_l .strength .ibox{display:inline-block;}
+#r_main .main_b_l .strength .ibox i{display:inline-block;width: 30px;height: 12px;background-color: #ccc;margin-left: 3px;border-radius: 6px;}
+#r_main .main_b_l .strength .ibox span{display:inline-block;font-size: 12px;margin-left: 10px;}
+#r_main .main_b_l .strength i.weak{background-color: red;}
+#r_main .main_b_l .strength i.normal{background-color: yellow;}
+#r_main .main_b_l .strength i.strong{background-color: green;}
+#r_main .main_b_l .strength i.first{background-color: #ccc;}
+#r_main .main_b_l .btn{background-color: #FF4251;color:#fff;}
+#r_main .main_b_r{margin:30px 90px 0 0;}
+#r_main .main_b_r div:nth-child(2){height: 4px;border:1px solid #ccc;margin:22px 0;}
+#r_main .main_b_r p{padding-left: 10px;}
+#r_main .main_b_r div:last-child{margin-top: 25px;}
+#r_main .main_b_r div:last-child a{display:inline-block;width: 23px;height: 23px;background: url(./img/sprites.fw.png) no-repeat;}
+#r_main .main_b_r div:last-child a:nth-child(1){background-position: -12px -5px;}
+#r_main .main_b_r div:last-child a:nth-child(1):hover{background-position: -143px -3px;}
+#r_main .main_b_r div:last-child a:nth-child(2){background-position: -41px -5px;}
+#r_main .main_b_r div:last-child a:nth-child(2):hover{background-position: -180px -2px;}
+#r_main .main_b_r div:last-child a:nth-child(3){background-position: -70px -5px;}
+#r_main .main_b_r div:last-child a:nth-child(3):hover{background-position: -107px -2px;}
